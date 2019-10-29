@@ -1,0 +1,34 @@
+{
+    "name": "mk-devs/multi-tenant",
+    "description": "Create, migrate and seed different databases dynamiclly without having to change your app connection.",
+    "keywords": ["laravel", "multi-tenant", "multi-database", "migrations"],    
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mostafa Kamel",
+            "email": "mk.kamel09@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mkdevs\\MultiTenant\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0"
+        },        
+        "laravel": {
+            "providers": [
+                "Mkdevs\\MultiTenant\\MultiTenantServiceProvider"
+            ],
+            "aliases": {
+                "MultiTenant": "Mkdevs\\MultiTenant\\Facades\\MultiTenant"
+            }            
+        }
+    }    
+}
