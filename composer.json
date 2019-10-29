@@ -10,19 +10,13 @@
             "role": "Developer"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {
-        "laravel/framework": "^5.8 || ^6.0"
-    },
+    "require": {},
     "autoload": {
         "psr-4": {
             "Mkdevs\\MultiTenant\\": "src/"
         }
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
-        },        
         "laravel": {
             "providers": [
                 "Mkdevs\\MultiTenant\\MultiTenantServiceProvider"
