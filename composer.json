@@ -10,7 +10,6 @@
             "role": "Developer"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
         "laravel/framework": "^5.8 || ^6.0"
     },
@@ -21,7 +20,7 @@
     },
     "extra": {
         "branch-alias": {
-            "master": "1.0-dev"
+            "dev-master": "1.0-dev"
         },        
         "laravel": {
             "providers": [
